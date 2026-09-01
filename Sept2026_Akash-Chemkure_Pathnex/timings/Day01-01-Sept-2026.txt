@@ -1,0 +1,5 @@
+# 01-Sept-2026 working timesheet
+
+#2.5 hours --> Watched July month 01st session and created github repo with all proper details
+
+# 1 hour --> Studied topics IP addreses, Subnet Masking and Types of DNS.
