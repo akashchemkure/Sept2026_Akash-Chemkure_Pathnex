@@ -1,0 +1,6 @@
+# Day 03 Timesheet
+
+1 --> Reatched the complete Day 02 and Day 03 Linux videos again.
+2 --> Noted down the notes from 03rd Sept Session.
+3 --> Learned about Soft and Hard Links.
+4 --> Completed all three daily tasks.
