@@ -1,0 +1,7 @@
+# Day 06 Timesheet
+
+1 --> Rewatched the complete Day 06 Git for DevOps videos again.
+2 --> Noted down the notes from 06th Sept Session.
+3 --> Learned and did complete handson of 06th Sept tutorial specially git reset, git restore, git stash and many morecommands.
+4 --> Practiced own explanation before evening meeting.
+5 --> Completed all three daily tasks..
