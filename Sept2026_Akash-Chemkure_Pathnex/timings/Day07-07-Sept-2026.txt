@@ -1,0 +1,7 @@
+# Day 07 Timesheet
+
+1 --> Rewatched the complete Day 07 AWS for DevOps videos again.
+2 --> Noted down the notes from 07th Sept Session.
+3 --> Learned and explored the UI of AWS and services like IAM, EC@, Subnets, S3 as part 07th Sept tutorial.
+4 --> Practiced own explanation before evening meeting.
+5 --> Completed all three daily tasks..
