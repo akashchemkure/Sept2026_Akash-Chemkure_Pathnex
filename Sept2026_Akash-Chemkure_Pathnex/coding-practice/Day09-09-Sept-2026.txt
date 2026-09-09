@@ -1,0 +1,115 @@
+Day 09 - Docker Integration with Jenkins and GitLab
+
+# Ansible - Setup Docker Container for Ngnix
+
+-name: Setup Docker container for ngnix
+ host: all
+ become: yes
+ tasks:
+   -name: Pull ngnix image
+    docker_image:
+      name: ngnix
+      source: pull
+-name: Run Ngnix container
+docker_container:
+  name: ngnix-container
+  image: ngnix
+  state: started
+  published_ports:
+      - "8080:80"
+
+# Terraform - EC2 with Auto Scaling Group
+resource "aws_launch_configuration" "example" {
+  name = "example-config"
+  image_id = "ami-0abcd1234abcd1234"
+  instance_type = "t3.medium"
+}
+
+resource "aws_autoscaling_group" "example" {
+  desired_capacity     = 2
+  max_size             = 3
+  min_size             = 1
+  vpc_zone_identifier  = ["subnet-12345678"]
+  launch_configuration = aws_launch_configuration.example.id
+}
+
+# Kubernetes - Horizontal Pod Autoscaler(HPA)
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: pathnex-deployment
+spec:
+  replicas: 1
+  selector:
+    matchlabels:
+      app: pathnex-app
+template:
+  metadata:
+    labels:
+       app: pathnex-app
+
+  specs:
+    containers:
+      - name: ngnix
+        image: mgnix
+        ports:
+          -containerPort: 80
+
+-----
+
+
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: pathnex-hpa
+spec:
+  scaletargetRef:
+    apiVersion: apps/v1
+    kind: deployment
+    name: pathnex-deployment
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 50
+
+# Jenkinsfile — Deploy to Kubernetes
+pipeline {
+    agent any
+    stages {
+        stage('Deploy to Kubernetes') {
+            steps {
+                script {
+                    sh 'kubectl apply -f deployment.yaml'
+                }
+            }
+        }
+    }
+}
+
+# Gitlab CI/CD - Deploy to Kubernetes
+
+stages: 
+  - deploy
+
+deploy:
+  stage: deploy
+  script: 
+    - kubectl apply -f kunernetes/deployment.yaml
+
+
+# Docker
+
+# Environment Variables
+FROM ubuntu:22.04
+ENV INSTITUTE=Pathnex
+ENV COURSE=DevOps
+CMD echo "$INSTITUTE - $COURSE"
+
+
+
+
+
+
+
+
+
+
