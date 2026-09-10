@@ -1,0 +1,7 @@
+# Day 09 Timesheet
+
+1 --> Rewatched the complete Day 09 AWS Day03 for DevOps videos again.
+2 --> Noted down the notes from 09th Sept Session.
+3 --> Learned and explored the UI of AWS and services like OSI Layer, Load balancers, Security Services, Databases, Storage, DevOps Tools, Deployment strategies.
+4 --> Practiced own explanation before evening meeting.
+5 --> Completed all three daily tasks till 2.00pm.
