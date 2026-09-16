@@ -1,0 +1,7 @@
+# Day 16 Timesheet
+
+1 --> Rewatched the complete Day 16 Kubernetes Hands-on with topics Daemon Set, Deployment, Stateful Set, Affinity, Anti-Affinity, Strictness Rule,       Taints and Tolerations for DevOps videos again.
+2 --> Noted down the notes from 16th Sept Session.
+3 --> Learned and explored practiced the demo hands-on.
+4 --> Practiced own explanation before evening meeting.
+5 --> Completed all four daily tasks.
