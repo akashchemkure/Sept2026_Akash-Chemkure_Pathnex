@@ -1,0 +1,7 @@
+# Day 18 Timesheet
+
+1 --> Rewatched the complete Day 18 GitOps for Kubernetes Hands-on.
+2 --> Noted down the notes from 18th Sept Session.
+3 --> Learned and explored practiced the demo hands-on.
+4 --> Practiced own explanation before evening meeting.
+5 --> Completed all four daily tasks.
