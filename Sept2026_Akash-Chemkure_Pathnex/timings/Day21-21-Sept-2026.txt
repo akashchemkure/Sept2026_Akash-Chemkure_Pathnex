@@ -1,0 +1,6 @@
+# Day 21 Timesheet
+
+1 --> Rewatched the complete Terraform.
+2 --> Learned and explored practiced the demo hands-on.
+3 --> Practiced own explanation before evening meeting.
+4 --> Completed all three daily tasks.
