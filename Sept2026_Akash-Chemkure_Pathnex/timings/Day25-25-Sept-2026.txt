@@ -1,0 +1,6 @@
+# Day 25 Timesheet
+
+1 --> Rewatched the complete Monitoring and Observability with DataDog video.
+2 --> Learned and explored practiced the demo hands-on.
+3 --> Practiced own explanation before evening meeting.
+4 --> Completed all four daily tasks.
