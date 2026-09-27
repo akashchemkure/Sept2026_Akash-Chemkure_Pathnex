@@ -1,0 +1,6 @@
+# Day 26 Timesheet
+
+1 --> Rewatched the complete ELK (ElasticSearch, Logstach and Kibana) video with trying to create dashboard.
+2 --> Learned and explored practiced the demo hands-on.
+3 --> Practiced own explanation before evening meeting.
+4 --> Completed all four daily tasks.
