@@ -1,0 +1,6 @@
+# Day 27 Timesheet
+
+1 --> Rewatched the complete kafka session.
+2 --> Learned and read the notes.
+3 --> Practiced own explanation before evening meeting.
+4 --> Completed all four daily tasks
